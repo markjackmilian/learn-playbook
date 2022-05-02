@@ -1,0 +1,9 @@
+---
+# Test playbook
+- name: Ping
+  hosts: web02
+
+  tasks:
+  - name: ping
+    win_ping:
+ 
